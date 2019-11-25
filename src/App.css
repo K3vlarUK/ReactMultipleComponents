@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ReleaseBox {
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.button {
+  background-color: darkblue;
+  color: ghostwhite;
+
+  padding: 1em;
+}
+
+li {
+  padding: 1em;
 }
 
 .App-logo {

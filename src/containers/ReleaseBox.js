@@ -41,7 +41,7 @@ class ReleaseBox extends Component {
       <hr/>
       <MovieList data={this.state.data} />
       <hr/>
-      <a href="https://www.imdb.com/calendar/?region=gb"><button>View more upcoming releases</button></a>
+      <a href="https://www.imdb.com/calendar/?region=gb"><button className="button"><strong>View more upcoming releases</strong></button></a>
       </div>
     )
   }
