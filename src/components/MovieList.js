@@ -11,7 +11,9 @@ class MovieList extends Component {
 
     return (
       <div className="movies">
-        {movieNodes}
+      <ul>
+      {movieNodes}
+      </ul>
       </div>
     )
   }
